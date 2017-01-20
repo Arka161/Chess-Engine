@@ -238,7 +238,7 @@ BBishops=BBishops|bopar;
 }	
 
 total_board();
-
+}
 
 };
 int main()

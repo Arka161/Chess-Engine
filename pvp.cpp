@@ -147,6 +147,8 @@ class cboard
 		int index2=(rank2-1)*8 + (file2-96) -1;
 		u64 oroperand=pieces[index1];
 		u64 oropshift=pieces[index2];
+	   		u64 bopar=0000000000000000000000000000000000000000000000000000000000000000;  //Convert this. Keeping it in this format for now for understanding
+
 	   switch(type)
 	   {
 		     case w :
